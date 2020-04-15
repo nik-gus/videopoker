@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<h1>Learning arrays in JSON using AJAX</h1>
+	<div>	<button class="button" onclick="updateCredits(100)">Buy 100 credits</button>
+</div>
+	<br />
+	<div>
+		<button  class="button" onclick="main(5)">Bet 5</button>
+		<button class="button" onclick="main(10)">Bet 10</button>
+		<button class="button" onclick="main(credits)">Bet All</button>
+		
+		<span id="credits">CREDITS: 0</span>
+	</div>
+	
+<br />	
+	
+	<img id="card1" src="" onclick="discardCard(0)" />
+	<img id="card2" src="" onclick="discardCard(1)" />
+	<img id="card3" src="" onclick="discardCard(2)" />
+	<img id="card4" src="" onclick="discardCard(3)" />
+	<img id="card5" src="" onclick="discardCard(4)" />
+	<br />
+	<div>
+		<button class="button" onclick="drawCards()">DEAL</button>
+				<span id="win"></span>
+				<span id="winning_hand"></span>
+
+		
+</div>	
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/pokersolver.js"></script>
+
+
+</html>
