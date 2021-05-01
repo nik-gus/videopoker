@@ -1,1 +1,2 @@
-Some info about this project
+Simple video poker game. 
+Play at https://nik-gus.github.io/videopoker/
